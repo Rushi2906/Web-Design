@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Student Registration Form</title>
+    <style type="text/css">
+    	td {
+    		color: darkred;
+    		background-color: rgb(204, 191, 190);
+    	}
+    	th {
+    		color: darkred;
+    		background-color: rgb(197, 233, 237);
+    	}
+    	body {
+    		background-image: url("https://st2.depositphotos.com/2931363/9624/i/950/depositphotos_96248814-stock-photo-application-form-on-background.jpg");
+    		background-repeat: no-repeat;
+    		background-size: 100%;
+    		background-position: 50% 50%;
+    		background-attachment: fixed;
+    	}
+    	input {
+    		background-color: rgb(77, 61, 184);
+    		color: darkred;
+    	}
+    	textarea {
+    		background-color: rgb(77, 61, 184);
+    		color: darkred;
+    	}
+    	.xyz {
+    		background-image: url("https://www.darshan.ac.in/Content/media/DU-logo.svg");
+    		background-repeat: no-repeat;
+    		background-size: 100%;
+    		background-color: rgb(197, 233, 237);
+    	}
+    </style>
+</head>
+<body>
+	<form>
+		<table align="center" cellspacing="5px" cellpadding="5px">
+			<tr>
+				<td class="xyz">
+				</td>
+				<th><h1>Student Registration Form</h1></th>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter Your Name</label>
+				</td>
+				<td>
+					<input type="Text" name="" size="60px" required="" placeholder="Enter Your Name">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter Your Father's Name</label>
+				</td>
+				<td>
+					<input type="text" name="" size="60px" required="" placeholder="Enter Your Father's Name">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter Your Mother's Name</label>
+				</td>
+				<td>
+					<input type="text" name="" size="60px" required="" placeholder="Enter Your Mother's Name">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Email Id</label>
+				</td>
+				<td>
+					<input type="Email" name="" size="60px" required="" placeholder="Email Address">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter Your Address</label>
+				</td>
+				<td>
+					<textarea rows="10" cols="60" required="" placeholder="Address"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter Gender</label>
+				</td>
+				<td>
+					<input type="radio" name="Gender" size="60px" required="">Male
+					<input type="radio" name="Gender" size="60px" required="">Female
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter Your Mobile No.</label>
+				</td>
+				<td> 
+					<input pattern="[0-9]{10}" maxlength="10" max="10" min="10" size="60px" required="" placeholder="Mobile No.">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Enter Your City</label>
+				</td>
+				<td>
+					<select required="">
+						<option>Rajkot</option>
+						<option>Morbi</option>
+						<option>Gondal</option>
+						<option>Jamnagar</option>
+					</select>
+				</td> 
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
